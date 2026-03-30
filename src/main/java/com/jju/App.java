@@ -30,7 +30,7 @@ public class App {
 
         // 3. Demonstrating Polymorphism
         // We can put different account types into one list
-        List<Bank Account> accounts = new ArrayList<>();
+        List<BankAccount> accounts = new ArrayList<>();
         accounts.add(mySavings);
         accounts.add(myChecking);
         accounts.add(new BankAccount("Charlie", 500.0));
@@ -43,5 +43,3 @@ public class App {
     }
 
 }
-
-
